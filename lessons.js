@@ -6,11 +6,12 @@ const LESSONS = [
  goal:"Explain how the main parts of a computer work together and recommend suitable components for a school PC.",
  read:"A computer is a team of different parts rather than one clever box. The central processing unit (CPU) carries out instructions and calculations. Random access memory (RAM) holds information that currently running programs need quickly; its contents disappear when the power is switched off. Storage, such as a solid-state drive (SSD), keeps files and software when the computer is off. Input devices, including a keyboard or mouse, send data into a computer. Output devices, including monitors and speakers, present the results. A powerful processor alone is not enough: the right balance of memory, storage and input and output devices matters for the job.",
  terms:[["CPU","The processor that executes instructions."],["RAM","Fast, temporary working memory used by running programs."],["Storage","Long-term space for files and applications."],["Peripheral","An input or output device connected to a computer."]],
- link:["Computer History Museum: Computers","https://www.computerhistory.org/timeline/computers/","Look at how early computers differ from modern ones."],
+ links:[["Teach Computing: Under the hood","https://teachcomputing.org/curriculum/key-stage-3/computing-systems/under-the-hood","Read the short explanation of processor, memory, storage, input and output."],["Computer History Museum: Computers","https://www.computerhistory.org/timeline/computers/","Compare early computers with modern school devices."]],
  research:["Find two differences between an early computer and a modern school PC.","Explain the separate jobs of the CPU, RAM and SSD using a schoolwork example.","Give two examples each of input and output devices."],
  make:"You have been asked to recommend computers for a new school IT room. Write a purchasing recommendation for a computer used for web research, word processing and beginner programming. Specify its CPU, RAM, storage and two peripherals. Explain why each is needed and compare this with a computer intended for demanding games.",
  steps:["Describe the jobs pupils need to do.","Recommend CPU, RAM, storage and peripherals.","Explain why your choices suit a school budget.","Compare one difference for a gaming PC."],
  frame:"I recommend a computer with ... because pupils will need to ...",
+ example:"Example: I would choose an SSD rather than only a hard disk because it stores files when the PC is switched off and can load programs quickly. RAM is different because it temporarily holds information while programs run.",
  stretch:"Explain why adding more RAM does not automatically make every computer task faster.",
  exit:"Which computer component would you upgrade first if too many browser tabs made work slow? Justify your answer."
 },
@@ -24,6 +25,7 @@ const LESSONS = [
  make:"Write a numbered journey of a photograph sent from one pupil to another through the internet. Include the sending device, packets, routers, receiver and reassembly. Add a text-only diagram using arrows and explain what could happen if one packet is lost.",
  steps:["Name the starting and ending devices.","Show at least six steps using arrows.","Use the words packet, router and protocol correctly.","Explain how missing packets may be dealt with."],
  frame:"First, the sending device ... Next, the message is divided into ...",
+ example:"Example: A photo is divided into packets before travelling across the network. Routers help forward the packets, and the receiving device combines them to rebuild the image.",
  stretch:"Why might packets from the same message travel along different routes?",
  exit:"Is the World Wide Web the same thing as the internet? Explain the distinction."
 },
@@ -37,6 +39,7 @@ const LESSONS = [
  make:"Produce a written timeline of five milestones (year, invention, one-sentence description and impact). Then argue which invention most changed everyday life, using two examples to support your judgement.",
  steps:["Put milestones in chronological order.","Include a date and description for each.","Explain the impact of at least three.","Justify your most important choice."],
  frame:"In [year], ... was developed. This mattered because ...",
+ example:"Example: The microprocessor was important because it allowed processor functions to fit on a small chip. This helped make computers smaller and easier to use in more places.",
  stretch:"Would the same invention be equally important in every country? Explain.",
  exit:"Give one reason that a more recent invention is not always the most important."
 },
@@ -50,6 +53,7 @@ const LESSONS = [
  make:"Write a 'Technology in 2040' briefing for young people. Explain your chosen technology, give two realistic applications and one possible drawback. Distinguish clearly between what exists now and what you predict might be possible.",
  steps:["State what your technology already does.","Explain two future uses and who would benefit.","Identify at least one obstacle or risk.","Support your prediction with a fact from the source."],
  frame:"At present, ... In the future it might ... because ...",
+ example:"Example: Engineers are developing tools to study distant planets. I predict better sensors could reveal more detail, but the cost and difficulty of sending equipment into space remain challenges.",
  stretch:"Who could be excluded from the benefits if this technology is expensive?",
  exit:"How can you tell the difference between a credible prediction and an unsupported guess?"
 },
@@ -63,6 +67,7 @@ const LESSONS = [
  make:"Investigate these fictional examples: A: 'A school will ban all homework tomorrow' with no named source; B: 'Scientists invent a battery that lasts forever' without evidence; C: 'Local library opens new reading room' with a dated council notice. Rate each as supported, unverified or doubtful. Give evidence-based reasons and write a five-step fact-checking guide.",
  steps:["Explain the difference between facts and claims.","Classify A, B and C without pretending to have verified them.","For each, say what evidence you would seek.","Finish with five practical checking steps."],
  frame:"I would not share claim ... yet because ... I would look for ...",
+ example:"Example: I would mark the unconfirmed homework ban as unverified. The message names no decision-maker or official announcement, so I would check the school's normal communication channels.",
  stretch:"Why can an authentic photograph still create a false impression?",
  exit:"Write one thing you will check before sharing a surprising online claim."
 },
@@ -76,6 +81,7 @@ const LESSONS = [
  make:"Create a cyber safety leaflet for Year 7 using three fictional scenarios: an urgent 'account locked' email, a prize message asking for login details, and a friend asking for a one-time code. For each, identify clues, describe a safe response and explain the risk. End with six cyber safety rules.",
  steps:["Write a heading suitable for Year 7.","Analyse all three imaginary scenarios.","Explain the safe response for each.","Create six short, practical safety rules."],
  frame:"The message may be suspicious because ... The safer choice is to ...",
+ example:"Example: The message creates urgency by saying an account will be closed immediately. Rather than opening its link, I would speak to school IT using the normal help route.",
  stretch:"Why is it dangerous to reuse the same password across several accounts?",
  exit:"A message claims to be from school IT and asks for your password. What should you do?"
 },
@@ -89,6 +95,7 @@ const LESSONS = [
  make:"Analyse a fictional pupil who posts a photo of a friend without permission, leaves an unkind public comment and shares a successful charity project. Explain how each post could affect their footprint, then write a positive digital footprint plan with six actions. Do not share real usernames or personal details.",
  steps:["Identify positive and risky behaviours in the fictional case.","Explain the likely impact on the people involved.","Suggest six realistic improvements.","Include asking permission before sharing other people's photos."],
  frame:"This post may affect the pupil because ... A more responsible choice is ...",
+ example:"Example: Posting a photograph without permission could upset another pupil and affect both people's online reputations. I would ask first and avoid sharing identifying details.",
  stretch:"Can an online reputation be affected even if a person never publishes anything themselves?",
  exit:"Why should you ask permission before sharing somebody else's image?"
 },
@@ -102,6 +109,7 @@ const LESSONS = [
  make:"Design a 'Take Control of Your Feed' guide for teenagers. Invent a fictional case in which a pupil watches one type of video and keeps receiving similar content. Explain why this might happen and propose five ways to vary what the person sees or reduce unwanted screen time.",
  steps:["Describe a realistic fictional feed.","Explain how a recommendation algorithm may respond.","Give five actions a teenager could try.","Balance the advantages and disadvantages."],
  frame:"The app may recommend similar videos because ... To regain choice, the pupil could ...",
+ example:"Example: If a pupil watches several football clips, an app may recommend similar videos. This could be useful, but it might reduce opportunities to discover completely different interests.",
  stretch:"Should platforms be required to explain how they recommend content? Give both sides.",
  exit:"Explain in one example how an algorithm can influence what someone believes."
 },
@@ -115,6 +123,7 @@ const LESSONS = [
  make:"Analyse three fictional outputs: A: a clear factual paragraph with a verifiable source; B: an attractive image labelled 'real photograph' with no provenance; C: a confident answer giving a made-up book title. For each, explain what could and could not be concluded about its origin and reliability. Write a responsible AI use guide for pupils.",
  steps:["Consider the evidence available in each fictional case.","Avoid claiming you can always detect AI by its appearance.","Explain how to check an important statement.","Write five responsible-use rules."],
  frame:"The information might be accurate, but I would check ... because ...",
+ example:"Example: A realistic-looking image is not proof that a real event happened. I would look for its original source, date and independent evidence rather than relying on appearance alone.",
  stretch:"Why might a human-written story also contain mistakes? What does this mean for checking sources?",
  exit:"Why is a convincing AI-generated answer not automatically a correct answer?"
 },
@@ -128,6 +137,7 @@ const LESSONS = [
  make:"Write a short investigation report about training an ocean-cleaning classifier. Describe your method, what labels you would give to at least eight imaginary examples, two likely mistakes and how you would improve the training set. If the linked activity works, include your observations; otherwise use the scenario provided here.",
  steps:["Explain the intended two categories.","List at least eight labelled training examples.","Predict two situations where mistakes might happen.","Suggest three ways to improve testing or data quality."],
  frame:"I would label ... as ... because ... A possible mistake would be ...",
+ example:"Example: I would label a plastic bottle as rubbish and a fish as a sea creature. If the model had only seen blue bottles, it might make mistakes when shown a green bottle.",
  stretch:"What might happen if every training picture of rubbish had a blue background?",
  exit:"What is the difference between training data and test data?"
 },
@@ -141,6 +151,7 @@ const LESSONS = [
  make:"A fictional school uses software to recommend extracurricular clubs, but it was trained using applications from only one year group. Explain two ways its suggestions might be limited, propose a fairer data collection plan and write a review checklist for the school before using its recommendations.",
  steps:["Identify the missing or unbalanced information.","Explain which pupils might receive poorer recommendations.","Suggest three improvements to the data or testing.","Decide what humans should check before taking action."],
  frame:"This system may be unfair because its data does not include ...",
+ example:"Example: A clubs recommender trained only on Year 9 choices may overlook activities popular with Year 7 pupils. I would include examples from all year groups and compare the results.",
  stretch:"Can a dataset be large but still biased? Explain with an example.",
  exit:"Why should a person be able to question an important automated decision?"
 },
@@ -154,6 +165,7 @@ const LESSONS = [
  make:"Write a balanced recommendation to a fictional hospital considering AI-assisted scan reviews. Include two advantages, two possible dangers, two safeguards and a conclusion saying whether AI should assist, decide alone or not be used. Avoid medical claims you cannot support.",
  steps:["Introduce the proposed use clearly.","Describe two benefits with examples.","Discuss two risks and reasonable safeguards.","Reach a justified conclusion."],
  frame:"AI could be helpful because ... However, a concern is ... Therefore ...",
+ example:"Example: AI might help highlight areas of a scan for a professional to review. A safeguard would be to require a qualified person to check the suggestion before any decision.",
  stretch:"Who should be accountable if an AI recommendation causes harm?",
  exit:"Explain the difference between using AI to advise a person and allowing it to decide alone."
 },
@@ -167,6 +179,7 @@ const LESSONS = [
  make:"Debug this fictional algorithm for signing into a school computer: 1 Open a document, 2 Switch on the device, 3 Enter a password, 4 Select your account, 5 Save the document, 6 Start the word processor. Explain at least three faults. Rewrite it into a logical process with clear instructions and test it using a pretend user who follows only what is written.",
  steps:["Identify at least three sequence or missing-step problems.","Rewrite at least eight precise steps.","Trace what happens when the steps are followed.","Explain two improvements after testing."],
  frame:"The first problem is ... because ... My improved instruction is ...",
+ example:"Example: Step 1 cannot be 'open a document' when the computer is still switched off. A clearer sequence starts with turning it on, signing in and opening the correct program.",
  stretch:"Add a decision such as 'if the password is incorrect' and show both branches.",
  exit:"Why is testing an algorithm useful even when its instructions look sensible?"
 },
@@ -180,6 +193,7 @@ const LESSONS = [
  make:"Design a fictional museum 'secret message' puzzle. Choose a shift from 1 to 5; encrypt a sentence of at least eight words; give a clear decoding hint; then demonstrate the decoding of one word step by step. Finish with a paragraph comparing classroom ciphers with real-world encryption.",
  steps:["State the shift value and rule.","Give the original and encrypted messages.","Demonstrate at least four letter substitutions.","Explain two weaknesses of this cipher."],
  frame:"My key is a shift of ... This changes the letter ... into ...",
+ example:"Example: With a Caesar shift of three, CAT becomes FDW: C → F, A → D and T → W. The reader reverses the shift to recover the plaintext.",
  stretch:"Explain how somebody could try all 25 possible Caesar shifts to break a message.",
  exit:"What is the difference between plaintext, ciphertext and a key?"
 },
@@ -193,6 +207,7 @@ const LESSONS = [
  make:"Redesign a fictional school clubs page that currently has tiny pale-grey text, unlabeled buttons, a confusing menu and a photo without alternative text. Produce a labelled text wireframe showing the header, navigation, main information and sign-up link. Explain at least five design changes and who benefits.",
  steps:["Sketch the page using text boxes, headings and arrows.","Place key information where it is easy to find.","Explain five accessibility or usability improvements.","Include a meaningful example of alt text."],
  frame:"I would change ... to ... so that a visitor who ... can ...",
+ example:"Example: I would replace a pale-grey link with dark, underlined text so that it is easier to see and recognise. I would also use a heading such as 'Join a club' instead of 'Click here'.",
  stretch:"How could you test your design with someone who cannot use a mouse?",
  exit:"Why is a visually attractive website not necessarily accessible?"
 },
@@ -206,6 +221,7 @@ const LESSONS = [
  make:"Analyse this fictional survey: 8 of 10 pupils in Club A like coding; 24 of 40 pupils in Club B like coding. Calculate each percentage, explain which club has the larger proportion, and show why saying 'Club B has three times as many coding fans' could mislead. Suggest a fair bar chart and write a short data report.",
  steps:["Calculate both percentages correctly.","Distinguish total numbers from proportions.","Describe a fair graph title, scale and labels.","Write a conclusion and one limitation of this small sample."],
  frame:"In Club A, ... out of ... equals ...%. This differs from Club B because ...",
+ example:"Example: Club A has 8/10 = 80% coding fans, while Club B has 24/40 = 60%. Club B has more people in total, but Club A has the higher proportion.",
  stretch:"Explain why a survey of only 10 pupils may not represent the whole school.",
  exit:"Name two things you check before trusting a graph online."
 },
@@ -219,6 +235,7 @@ const LESSONS = [
  make:"A fictional school plans to replace 100 working laptops. Write a sustainability recommendation comparing immediate replacement, gradual replacement and repair. Consider learning needs, energy, waste and cost. Propose five actions to reduce the school's technology footprint.",
  steps:["Compare at least three possible approaches.","Explain environmental costs and useful benefits.","Give five realistic actions.","Make a reasoned recommendation, not a blanket rule."],
  frame:"Replacing all the devices may help ... but it could also ... I recommend ...",
+ example:"Example: Repairing working laptops may reduce electronic waste because fewer devices are discarded. However, the school also needs to check whether the laptops still support learning.",
  stretch:"Why does a low-energy device still have an environmental impact?",
  exit:"Explain why keeping a working device for longer may reduce e-waste."
 },
@@ -232,6 +249,7 @@ const LESSONS = [
  make:"Design a 'Smart Dudley 2040' proposal with three improvements: transport, energy and one service you choose. For each, describe the problem, data or sensor used, how it operates, who benefits and one possible drawback. End with a prioritised budget choice.",
  steps:["Choose three meaningful local problems.","Describe how each proposed system would work.","Explain the impact on residents and possible risks.","Choose which project the council should fund first."],
  frame:"One problem in the town is ... A sensor could measure ... and help by ...",
+ example:"Example: A smart bin could use a sensor to report when it is almost full. A collection team could plan its route, but the system would still need a backup if the sensor failed.",
  stretch:"What should happen if the city's smart systems lose internet access?",
  exit:"Why must a smart city be useful to residents who do not own smartphones?"
 },
@@ -249,6 +267,7 @@ const LESSONS = [
  make:"Write a careers guide for pupils who enjoy technology but are unsure about coding. Create three short job profiles, including daily responsibilities, skills and how someone could start. Finish with a comparison and a reasoned recommendation for three different fictional pupils: one who enjoys problem solving, one who enjoys design and one who enjoys helping others.",
  steps:["Create three distinct career profiles.","Explain skills and entry routes.","Match roles to the fictional pupils with reasons.","Avoid making assumptions about who can do a job."],
  frame:"A ... typically ... This job suits somebody who enjoys ... because ...",
+ example:"Example: An IT support technician helps people fix devices and software problems. Communication matters because they need to explain solutions clearly to people with different experience.",
  stretch:"How might automation change these jobs, and which human skills will remain important?",
  exit:"Name a technology career that involves communication as well as technical knowledge."
 },
@@ -262,6 +281,7 @@ const LESSONS = [
  make:"Pitch an original app for school life or the local community. Give it a name and a clear purpose. Create text wireframes for three screens (home, main task and help/settings). Describe five features, how a pupil moves between the screens, what personal information it needs (if any) and two ways to make it accessible.",
  steps:["Explain the problem and target user.","Design three labelled screens using text boxes and arrows.","Describe five features and how navigation works.","Explain privacy and accessibility choices."],
  frame:"My app is called ... It helps ... by ... On the home screen, users can ...",
+ example:"Example: My app would help pupils find school clubs. The home screen would show clear buttons for 'Find a club', 'My timetable' and 'Help', with readable text and simple navigation.",
  stretch:"How would you test whether people with different needs could use your app?",
  exit:"Why should designers speak to users before building an app?"
 }
